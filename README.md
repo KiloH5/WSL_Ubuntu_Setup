@@ -91,3 +91,5 @@ Confirm any prompts asking for `[Y/N]` with `Y` to install the packages.
 Once the installations have completed, you should now be able to open VSCode by typing `code` into your terminal, assuming you have VSCode installed on your computer.
 
 At this point, Ubuntu should be now completely set up for your coding needs. If you ran into any problems during these instructions, please submit it as an Issue, or send me an email: VyProductions.music@gmail.com.
+
+Note: One can remote-mount a directory with `$ sshfs username@domain.net:/home/username/folder-name`. This will create a folder in the cwd that is connected to the specified folder.
